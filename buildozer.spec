@@ -10,11 +10,15 @@ orientation = portrait
 fullscreen = 0
 
 # Android 11+ (API 30+). Интернет НЕ запрашиваем: приложение полностью офлайн.
-android.api = 34
+android.api = 33
 android.minapi = 30
+android.ndk = 25b
 android.archs = arm64-v8a
 android.accept_sdk_license = True
 android.permissions = MANAGE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
+
+# Фиксируем стабильную версию python-for-android вместо нестабильного master
+p4a.branch = v2024.01.21
 
 [buildozer]
 log_level = 2
