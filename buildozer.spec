@@ -13,8 +13,9 @@ fullscreen = 0
 android.api = 34
 android.minapi = 30
 android.archs = arm64-v8a
+android.accept_sdk_license = True
 android.permissions = MANAGE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 
 [buildozer]
 log_level = 2
-warn_on_root = 1
+warn_on_root = 0
